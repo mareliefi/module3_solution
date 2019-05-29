@@ -1,0 +1,84 @@
+body {
+	font-family: font-family: 'Patrick Hand', cursive;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #787878;
+	padding-bottom: 15px;
+}
+
+.navbar-brand h1 {
+	font-family: font-family: 'Patrick Hand', cursive;
+	color: #F5F5F5;
+	font-size: 1.5em;
+ 	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	line-height: .75;
+    }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+   }
+
+.menu-header h2 {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #787878;
+	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;  	
+}
+
+.dish-description {
+	background-color: #787878;
+	color: #FFFFFF;
+	}
+
+section h3 {
+	text-align: center;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+
+@media (max-width: 767px) {
+
+#nav-list a{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	}
+
+#nav-list a:hover {
+   background-color: #A9A9A9; 
+}
+
+.navbar-brand {
+
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #787878
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }  
+
+#header-nav {
+	display: block;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+}
